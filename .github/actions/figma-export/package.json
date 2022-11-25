@@ -13,7 +13,7 @@
     "figma-js": "^1.16.0",
     "fs-extra": "^10.1.0",
     "got": "^11.8.3",
-    "p-queue": "^6.6.2",
+    "p-queue": "^5.0.0",
     "sanitize-filename": "^1.6.3"
   }
 }
