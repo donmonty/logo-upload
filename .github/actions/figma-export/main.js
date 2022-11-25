@@ -89,7 +89,7 @@ function run() {
           headers: {
             'Content-Type': contentTypes[options.format]
           },
-          encoding: (options.format === 'svg' ? 'utf8' : "buffer")
+          encoding: (options.format === 'svg' ? 'utf8' : null)
         })
         .then(response => {
           return ensureDir(join(options.outputDir, options.format))
