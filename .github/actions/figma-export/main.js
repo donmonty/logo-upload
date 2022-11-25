@@ -10,7 +10,7 @@ function run() {
 
   const options = {
     format: 'jpg',
-    outputDir: './logos',
+    outputDir: '/public/logos',
     scale: '1'
   }
   

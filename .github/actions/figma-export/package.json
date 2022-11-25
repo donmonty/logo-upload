@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "figma-js": "^1.16.0",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^7.0.0",
     "got": "^8.3.0",
     "p-queue": "^2.4.2",
     "sanitize-filename": "^1.6.3"
