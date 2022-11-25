@@ -1,0 +1,16 @@
+name: Upload Images
+on: workflow_dispatch
+jobs:
+  image-export:
+    env:
+      FIGMA_TOKEN: figd_4V-IfZADCJmwu3jVYbaY1SeH06mz8tqgs8e2llnA
+      FIGMA_FILE_URL: https://www.figma.com/file/Pez6alDW7c8sbeRWHtjq2U/Game-Logos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Export Figma images
+        uses: ./.github/actions/figma-export
+

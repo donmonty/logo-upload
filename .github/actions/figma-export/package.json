@@ -1,0 +1,19 @@
+{
+  "name": "figma-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figma-js": "^1.16.0",
+    "fs-extra": "^10.1.0",
+    "got": "^11.8.3",
+    "p-queue": "^6.6.2",
+    "sanitize-filename": "^1.6.3"
+  }
+}

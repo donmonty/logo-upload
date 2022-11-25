@@ -1,0 +1,5 @@
+name: "Export Figma Components"
+description: "Export a Figma file's components as images"
+runs:
+  using: "node16"
+  main: "main.js"

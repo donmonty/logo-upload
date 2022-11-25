@@ -1,0 +1,5 @@
+name: "Image Upload"
+description: "Upload image to AWS S3"
+runs:
+  using: "node16"
+  main: "main.js"
