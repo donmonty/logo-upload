@@ -3,7 +3,7 @@ on: [workflow_dispatch, repository_dispatch, push]
 jobs:
   image-export:
     env:
-      FIGMA_TOKEN: figd_4V-IfZADCJmwu3jVYbaY1SeH06mz8tqgs8e2llnA
+      FIGMA_TOKEN: ${{secrets.FIGMA_TOKEN}}
       FIGMA_FILE_URL: https://www.figma.com/file/Pez6alDW7c8sbeRWHtjq2U/Game-Logos
     runs-on: ubuntu-latest
     steps:
